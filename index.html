@@ -1,23 +1,65 @@
 <!DOCTYPE html>
 <html lang="fr">
-<link rel="stylesheet" href="style.css">
+
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ROSTO.infinity</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="resources/images/icon-128x128.png">
+    <title>ROSTO.infinity</title>
 </head>
 
 <body>
-    <h1>Oups!!. Site en construction à bientôt :)</h1>
-    <div class="imgrosto">
+    <header>
+        <a href="#" class="logo">rosto</a>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <ul class="navbar">
+            <li><a href="#banniere" onclick="toggleMenu();">Accueil</a></li>
+            <li><a href="#Services" onclick="toggleMenu();">Services</a></li>
+            <li><a href="#Compétences" onclick="toggleMenu();">Compétences</a></li>
+            <li><a href="#Portfolio" onclick="toggleMenu();">Portfolio</a></li>
+            <li><a href="#Tarifs" onclick="toggleMenu();">Tarifs</a></li>
+            <a href="#" class="btn-reserve" onclick="toggleMenu();">Commender</a>
+        </ul>
+    </header>
+
+
+    <section class="banniere" id="banniere">
+        <div class="contenu">
+            <h2>Votre monde numérique</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <a href="#" class="btn1">à propos</a>
+            <a href="#" class="btn2">contact</a>
+        </div>
+    </section>
+
+    <!-- <h1>Oups!!. Site en construction à bientôt :)</h1> -->
+    <!-- <div class="imgrosto">
         <img src="resources/images/rosto.jpg" alt="rosto.infinity">
     </div>
 
-    <img src="resources/images/PROF.jpg" alt="rosto.infinity">
+    <img src="resources/images/PROF.jpg" alt="rosto.infinity"> -->
     <h1>First site</h1>
+    <h2>.Oups!!. Site en construction à bientôt :)</h2>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+
+        function toggleMenu() {
+            const tmenuToggle = document.querySelector('.menuToggle');
+            const navbar = document.querySelector('.navbar');
+            navbar.classList.toggle('active');
+            menuToggle.classList.toggle('active');
+        }
+    </script>
 </body>
 
 </html>
