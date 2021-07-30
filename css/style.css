@@ -77,7 +77,7 @@
                           display: flex;
                           justify-content: center;
                           align-items: center;
-                          background-image: url(../resources/images/PROF.jpg);
+                          background-image: url(../resources/images/PROF1.jpg);
                           background-size: cover;
                       }
                       
@@ -516,6 +516,35 @@
                           }
                       }
                       
+                      @media (max-width: 600px) {
+                          .banniere .contenu h2 {
+                              font-size: 2.2em;
+                              color: #fff;
+                          }
+                          .titre-text {
+                              color: #000;
+                              font-size: 2rem;
+                              font-weight: 300;
+                              text-transform: capitalize;
+                          }
+                          .temoignage h2 {
+                              font-size: 1.1em;
+                          }
+                          .temoignage p {
+                              text-align: center;
+                          }
+                          .banniere {
+                              position: relative;
+                              width: 100%;
+                              min-height: 100vh;
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                              background-image: url(../resources/imageS/PROF2.jpg);
+                              background-size: cover;
+                          }
+                      }
+                      
                       @media (max-width: 480px) {
                           .banniere .contenu h2 {
                               font-size: 2.2em;
@@ -532,6 +561,16 @@
                           }
                           .temoignage p {
                               text-align: center;
+                          }
+                          .banniere {
+                              position: relative;
+                              width: 100%;
+                              min-height: 100vh;
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                              background-image: url(../resources/imageS/PROF3.jpg);
+                              background-size: cover;
                           }
                       }
                       /* .loaders {
