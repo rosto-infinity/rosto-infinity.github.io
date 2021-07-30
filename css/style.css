@@ -434,7 +434,7 @@
                           }
                           header .navbar li a {
                               text-decoration: none;
-                              color: #111;
+                              color: rgb(0, 0, 0);
                               font-size: 1.6em;
                               font-weight: 300;
                           }
@@ -448,7 +448,7 @@
                               width: 100%;
                               height: calc(100% -68px);
                               position: fixed;
-                              top: 68px;
+                              top: 105px;
                               left: 0;
                               display: flex;
                               justify-content: center;
