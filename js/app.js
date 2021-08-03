@@ -4,8 +4,9 @@ window.addEventListener('scroll', function() {
 });
 
 function toggleMenu() {
-    const tmenuToggle = document.querySelector('.menuToggle');
+    const menuToggle = document.querySelector('.menuToggle');
     const navbar = document.querySelector('.navbar');
-    navbar.classList.toggle('active');
+
     menuToggle.classList.toggle('active');
+    navbar.classList.toggle('active');
 }

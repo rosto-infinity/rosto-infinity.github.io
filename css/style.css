@@ -422,12 +422,6 @@
     }
     
     @media (max-width: 991px) {
-        .lock {
-            display: ;
-        }
-    }
-    
-    @media (max-width: 991px) {
         header,
         header.sticky {
             padding: 10px 20px;
@@ -463,11 +457,11 @@
             position: relative;
             width: 40px;
             height: 40px;
-            background-image: url(../resources/images/menu.png);
+            background: url(../resources/images/close.png);
+            background-size: 25px;
             background-repeat: no-repeat;
             background-position: center;
             cursor: pointer;
-            background-size: 30px;
         }
         .menuToggle .lock {
             cursor: pointer;
@@ -477,7 +471,10 @@
             /* display: initial; */
         }
         .menuToggle.active {
-            background-image: url(../resources/images/close.png);
+            position: relative;
+            width: 40px;
+            height: 40px;
+            background: url(../resources/images/menu.png );
             background-size: 25px;
             background-repeat: no-repeat;
             background-origin: center;
