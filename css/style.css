@@ -738,12 +738,22 @@
          }
          .menuToggle {
              position: relative;
-             width: 40px;
+             width: 45px;
              height: 40px;
              background: url(../resources/images/close.png);
              background-size: 25px;
              background-repeat: no-repeat;
              background-position: center;
+             cursor: pointer;
+         }
+         .menuToggle.active {
+             position: relative;
+             width: 45px;
+             height: 40px;
+             background: url(../resources/images/menu.png );
+             background-size: 25px;
+             background-repeat: no-repeat;
+             background-origin: center;
              cursor: pointer;
          }
          .menuToggle .lock {
@@ -752,15 +762,6 @@
              margin-left: 7px;
              font-size: 2em;
              /* display: initial; */
-         }
-         .menuToggle.active {
-             position: relative;
-             width: 40px;
-             height: 40px;
-             background: url(../resources/images/menu.png );
-             background-size: 25px;
-             background-repeat: no-repeat;
-             background-origin: center;
          }
          header.sticky .menuToggle {
              filter: invert(1);
