@@ -8,3 +8,14 @@ videoBtn.forEach(bouton => {
         document.querySelector('#video-slider').src = src;
     });
 });
+
+
+
+
+
+
+
+
+
+// %
+// % % % ùùùù
