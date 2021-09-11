@@ -379,6 +379,7 @@ section:nth-child(even) {
     flex-wrap: wrap;
     gap: 1.5rem;
     align-items: center;
+    background: #fff;
 }
 
 .competences .row .image {
