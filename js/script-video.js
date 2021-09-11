@@ -11,11 +11,16 @@ videoBtn.forEach(bouton => {
 
 
 
+// script chargement
 
 
 
 
 
+var loader = document.querySelector(".loader")
 
-// %
-// % % % ùùùù
+window.addEventListener("load", vanish);
+
+function vanish() {
+    loader.classList.add("disppear");
+}
