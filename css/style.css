@@ -94,19 +94,19 @@
      display: none;
  }
  
- .heading {
+ .grd-titre {
      text-align: center;
      padding-bottom: 2rem;
      font-size: 5rem;
      color: var(--green);
  }
  
- .heading span {
+ .grd-titre span {
      position: relative;
      z-index: 0;
  }
  
- .heading span::before {
+ .grd-titre span::before {
      content: '';
      position: absolute;
      bottom: 1.2rem;
