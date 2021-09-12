@@ -39,17 +39,17 @@ section {
     padding: 2rem 9%;
 }
 
+html::-webkit-scrollbar-thumb {
+    background: var(--red);
+    border-radius: 5rem;
+}
+
 html::-webkit-scrollbar {
     width: 1rem;
 }
 
 html::-webkit-scrollbar-track {
     background: #fff;
-}
-
-html::-webkit-scrollbar-thumb {
-    background: var(--red);
-    border-radius: 5rem;
 }
 
 
@@ -571,6 +571,16 @@ section:nth-child(even) {
     header {
         padding: 1rem 2rem;
     }
+    html::-webkit-scrollbar-thumb {
+        background: var(--red);
+        border-radius: 5rem;
+    }
+    html::-webkit-scrollbar {
+        width: 1rem;
+    }
+    html::-webkit-scrollbar-track {
+        background: #fff;
+    }
     section {
         padding: 2rem;
     }
@@ -579,6 +589,16 @@ section:nth-child(even) {
 @media (max-width:768px) {
     header .icons #menu-bars {
         display: inline-block;
+    }
+    html::-webkit-scrollbar-thumb {
+        background: var(--red);
+        border-radius: 5rem;
+    }
+    html::-webkit-scrollbar {
+        width: 1rem;
+    }
+    html::-webkit-scrollbar-track {
+        background: #fff;
     }
     header .navbar {
         position: absolute;
@@ -613,6 +633,16 @@ section:nth-child(even) {
 @media (max-width:450px) {
     html {
         font-size: 50%;
+    }
+    html::-webkit-scrollbar-thumb {
+        background: var(--red);
+        border-radius: 5rem;
+    }
+    html::-webkit-scrollbar {
+        width: 1rem;
+    }
+    html::-webkit-scrollbar-track {
+        background: #fff;
     }
     .services .box-container .box img {
         height: auto;
