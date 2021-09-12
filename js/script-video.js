@@ -14,6 +14,11 @@ videoBtn.forEach(bouton => {
 // script chargement
 
 
+/**
+
+ // script chargement
+
+*/
 
 
 
@@ -23,4 +28,25 @@ window.addEventListener("load", vanish);
 
 function vanish() {
     loader.classList.add("disppear");
+}
+
+
+/**
+
+   // scroll du site
+
+*/
+
+
+
+
+window.onscroll = () => {
+
+
+    if (window.scrollY > 60) {
+        document.querySelector('#scroll-top').classList.add('active');
+    } else {
+        document.querySelector('#scroll-top').classList.remove('active');
+    }
+
 }
