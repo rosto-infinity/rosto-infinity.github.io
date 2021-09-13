@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;800;900&display=swap');
  :root {
-    --gradient: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+ --gradient: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
     --red: #f00000;
     --rouge-clair: #ff0000;
     --green: #091b07;
