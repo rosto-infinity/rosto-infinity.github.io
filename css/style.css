@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;800;900&display=swap');
  :root {
     --gradient: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
     --red: #f00000;
     --rouge-clair: #ff0000;
-    --green: #130f40;
-    --light-color: #666;
+    --green: #091b07;
+    --light-color: rgb(34, 33, 33);
     --noir: #000;
     --blue: #0abde3;
     --border: .1rem solid rgba(0, 0, 0, .1);
@@ -12,14 +14,15 @@
 }
 
 * {
-    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     outline: none;
     border: none;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     transition: all .2s linear;
 }
 
@@ -80,7 +83,7 @@ html {
 .bouton {
     margin-top: 1rem;
     display: inline-block;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     color: #fff;
     background: var(--green);
     border: var(--blue);
@@ -117,7 +120,7 @@ header {
 }
 
 header .navbar a {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     border-radius: .5rem;
     padding: .5rem 1.5rem;
     color: var(--noir);
@@ -165,7 +168,7 @@ header .icons #menu-bars {
     text-align: center;
     padding-bottom: 2rem;
     padding-top: 5rem;
-    font-size: 5rem;
+    font-size: 4.5rem;
     color: var(--green);
 }
 
@@ -277,7 +280,7 @@ section:nth-child(even) {
 .accueil .flip,
 .accueil span {
     color: rgb(255, 255, 255);
-    font-size: 7rem;
+    font-size: 5.3rem;
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
@@ -359,6 +362,8 @@ section:nth-child(even) {
     font-size: 2.5rem;
     color: #fff;
     padding: .5rem 0;
+    background: rgba(7, 29, 7, 0.514);
+    ;
 }
 
 .accueil .video-container video {
@@ -413,7 +418,7 @@ section:nth-child(even) {
 }
 
 .services .box-container .box {
-    text-align: center;
+    text-align: justify;
     border: var(--border);
     box-shadow: var(--box-shadow);
     border-radius: .5rem;
@@ -426,12 +431,12 @@ section:nth-child(even) {
 }
 
 .services .box-container .box h3 {
-    font-size: 2.3rem;
-    color: var(--black);
+    font-size: 2.9rem;
+    color: var(--green);
 }
 
 .services .box-container .box p {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color: var(--light-color);
     padding: 1rem 0;
     line-height: 1.8;
@@ -466,13 +471,13 @@ section:nth-child(even) {
 
 .competences .comp-row .content h3 {
     color: var(--black);
-    font-size: 4rem;
+    font-size: 2.9rem;
     padding: .5rem 0;
 }
 
 .competences .comp-row .content p {
     color: var(--light-color);
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     padding: .5rem 0;
     line-height: 2;
 }
@@ -503,7 +508,7 @@ section:nth-child(even) {
 }
 
 .competences .comp-row .content .icons-container .icons span {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: var(--black);
 }
 
@@ -588,7 +593,7 @@ section:nth-child(even) {
     text-align: center;
     background: #fff;
     height: auto;
-    width: 20%;
+    width: 17%;
     min-width: 150px;
     max-width: 450px;
 }
@@ -605,7 +610,7 @@ section:nth-child(even) {
     border-radius: .5rem;
     border: var(--border);
     text-transform: none;
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 .contact .row form .box:focus,
@@ -614,23 +619,22 @@ section:nth-child(even) {
 }
 
 .contact .row form textarea {
-    height: 29rem;
+    height: 17rem;
     resize: none;
 }
 
 .contact .row button.rosto {
     justify-content: flex-start;
     margin-top: 1rem;
-    margin-left: 0;
-    margin-right: 10px;
-    /* display: inline-block; */
+    margin-left: 2.3rem;
     font-size: 1.7rem;
     color: #fff;
     background: var(--green);
     border: var(--blue);
     border-radius: .5rem;
     cursor: pointer;
-    padding: .8rem 3rem;
+    padding: .8rem 1rem;
+    float: left;
 }
 
 .contact .row button.rosto:hover {
