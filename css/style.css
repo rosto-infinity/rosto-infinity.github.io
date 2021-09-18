@@ -559,7 +559,7 @@ section:nth-child(even) {
 
 .review .box-container .box .stars i {
     font-size: 1.7rem;
-    color: var(--blue);
+    color: var(--red);
 }
 
 
